@@ -1,11 +1,16 @@
 package com.custchina;
 
-    
-    /**
-    *2024/9/24
-    *栋dong
-    */public class Main {
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+/**
+ * 2024/9/24
+ * 栋dong
+ */
+@SpringBootApplication
+public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        SpringApplication.run(Main.class, args);
     }
 }
