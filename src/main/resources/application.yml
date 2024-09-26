@@ -1,4 +1,4 @@
 server:
   port: 7788
 qqBot:
-  apiUrl: 192.168.1.113:3000/
+  apiUrl: 127.0.0.1:3000/

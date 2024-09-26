@@ -10,6 +10,7 @@ import java.util.regex.Pattern;
 
 public class regexUtil {
     public static String kickRegex = "踢\\[CQ:at,qq=\\d+,name=.*\\]";//踢人命令
+
     public static String getQQRegex = "qq=(\\d+)";//获取QQ号
 
     public static boolean checkKick(String kick) {
